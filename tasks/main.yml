@@ -1,5 +1,3 @@
----
-# tasks file for octools
 - name: login to openshift
   command: oc login -u={{ username }} -p={{ pass }} --insecure-skip-tls-verify {{ ochost }}:{{ ocport }}
 
