@@ -1,2 +1,20 @@
 ---
 # vars file for octools
+projectname: test
+template: ruby
+apphostname: ruby-example
+templatename: rubytemplate
+createtemplate: false
+quickapp: false
+sti: false
+git_url: https://github.com/sclorg/ruby-ex.git
+url_to_template: https://github.com/sclorg/ruby-ex.git
+scaleme: false
+autoscale: false
+username: admin
+pass: xxx 
+contextdir: .
+number_of_instances: 1
+ochost: https://master.yusufhadiwinata.xyz
+ocport: 8443
+appdomain: apps.yusufhadiwinata.xyz
