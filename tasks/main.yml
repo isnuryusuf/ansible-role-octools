@@ -5,10 +5,10 @@
 
 - name: 
   get_url:
-    url: "{{ url_to_template }}"
-    dest: /tmp/{{ templatename }}.conf
+    url: url_to_template
+    dest: /tmp/templatename.conf
     mode: 0444
-  when: "{{ createtemplate }}"
+  when: createtemplate
 
 - name: import template into openshift
   command: oc create -f /tmp/{{ templatename }}.conf -n openshift
